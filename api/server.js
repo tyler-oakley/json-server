@@ -1,8 +1,8 @@
 // See https://github.com/typicode/json-server#module
 const jsonServer = require('json-server')
 const server = jsonServer.create()
-const router = jsonServer.router({[
-    {
+const router = jsonServer.router({
+    "notes": [{
       "id": 1,
       "name": "Pick up groceries",
       "note": "Pick up groceries today, before 7 pm.  Aldis in Latrobe.",
