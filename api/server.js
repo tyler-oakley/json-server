@@ -48,7 +48,7 @@ const router = jsonServer.router({
       "name": "Yeah!",
       "artistName": "Usher",
       "albumName": "Confessions",
-      "genre": "Hip-hop"
+      "genre": "Hip-Hop"
     }
   ]
 })
