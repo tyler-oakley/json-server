@@ -19,7 +19,7 @@ const router = jsonServer.router({
     }
   ]
 })
-*/
+
 const router = jsonServer.router({
   "songs": [
        {
@@ -51,6 +51,55 @@ const router = jsonServer.router({
       "genre": "Hip-Hop"
     }
   ]
+})
+*/
+const router = jsonServer.router({
+  "contacts": [
+	{
+	  "id": 1,
+ 	  "name": "Ed Gazdag",
+      "email": "ed.gazdag@briebug.com",
+   	  "phone": "724-433-2518",
+  	  "phoneType": "Cell",
+  	  "address": "3023 Ben Venue Dr",
+  	  "city": "Greensburg",
+  	  "state": "PA",
+  	  "zip": "15601"
+	},
+	{
+	  "id": 2,
+ 	  "name": "John Doe",
+      "email": "john.doe@briebug.com",
+   	  "phone": "724-555-1212",
+  	  "phoneType": "Home",
+  	  "address": "123 Main St",
+  	  "city": "Greensburg",
+  	  "state": "PA",
+  	  "zip": "15601"
+	},
+	{
+	  "id": 3,
+ 	  "name": "Jane Doe",
+      "email": "jane.doe@briebug.com",
+   	  "phone": "724-555-2121",
+  	  "phoneType": "Cell",
+  	  "address": "123 Main St",
+  	  "city": "Greensburg",
+  	  "state": "PA",
+  	  "zip": "15601"
+	},
+	{
+	  "id": 4,
+ 	  "name": "Bill Smith",
+      "email": "bill.smith@briebug.com",
+   	  "phone": "724-555-2929",
+  	  "phoneType": "Work",
+  	  "address": "345 First Ave",
+  	  "city": "Greensburg",
+  	  "state": "PA",
+  	  "zip": "15601"
+	},
+  ]	
 })
 const middlewares = jsonServer.defaults()
 
