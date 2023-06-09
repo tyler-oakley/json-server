@@ -52,7 +52,6 @@ const router = jsonServer.router({
     }
   ]
 })
-*/
 const router = jsonServer.router({
   "contacts": [
 	{
@@ -100,7 +99,27 @@ const router = jsonServer.router({
   	  "zip": "15601"
 	},
   ]	
+})*/
+
+const router = jsonServer.router({
+  "books": [
+       {
+      "id": 1,
+      "title": "The Shining",
+      "authorFName": "Stephen",
+      "authorLName": "King",
+      "yearPublished": "1977"
+    },
+    {
+      "id": 2,
+      "title": "It",
+      "authorFName": "Stephen",
+      "authorLName": "King",
+      "yearPublished": "1986"
+    }
+  ]
 })
+   	  
 const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
