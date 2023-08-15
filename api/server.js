@@ -102,20 +102,18 @@ const router = jsonServer.router({
 })*/
 
 const router = jsonServer.router({
-  "books": [
+  "students": [
        {
       "id": 1,
-      "title": "The Shining",
-      "authorFName": "Stephen",
-      "authorLName": "King",
-      "yearPublished": "1977"
+      "name": "John Johnson",
+      "year": "Sophomore",
+      "grade": "B"
     },
     {
       "id": 2,
-      "title": "It",
-      "authorFName": "Stephen",
-      "authorLName": "King",
-      "yearPublished": "1986"
+      "name": "Jack Jackson",
+      "year": "Senior",
+      "grade": "F"
     }
   ]
 })
